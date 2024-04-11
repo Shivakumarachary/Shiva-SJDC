@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: dotted;
+            border-radius: 5%;
+            cursor: pointer;
+            margin-right: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .button:active {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset style="background-color: rgb(251, 251, 175);">
+        <center>
+            <h1><u>Users Details</u></h1>
+            <form action="" style="background-color: beige;">
+                Enter your First name : <br>
+                <input type="text" name="fname" placeholder="Firstname"><br>
+                Enter your Last name : <br>
+                <input type="text" name="lname" placeholder="Lastname"><br>
+                Enter your Email : <br>
+                <input type="email" name="email" placeholder="Email"><br>
+                Enter your password : <br>
+                <input type="password" name="password" placeholder="Min characters-8"><br>
+                Enter your Contact Number : <br>
+                <input type="number" name="contact" placeholder="Contact No."><br>
+                Enter your City : <br>
+                <input type="text" name="city" placeholder="City"><br>
+                Enter Gender : <br>
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female<br><br>
+                <button class="button" type="submit">Submit</button>
+                <button class="button" type="reset">Cancel</button>
+            </form>
+        </center>
+    </fieldset>
+</body>
+
+</html>
